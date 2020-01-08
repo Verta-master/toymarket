@@ -1,0 +1,147 @@
+.menu {
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid @blue;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    height: 5px;
+    border-top: 1px solid @blue;
+    border-bottom: 1px solid @blue;
+  }
+}
+
+.menu__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__drop-btn,
+.menu__btn {
+  display: none;
+}
+
+.menu__list {
+  .reset();
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 40px;
+  .transition();
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background-color: @blue;
+    opacity: 0;
+    .transition();
+  }
+  
+  &:hover,
+  &:active,
+  &--active {
+    &::before {
+      opacity: 1;
+      width: 100%;
+      .transition();
+    }
+    
+    .menu__link {
+      color: @blue;
+      .transition();
+    }
+    
+    .menu__link--catalog svg {
+      fill: @blue;
+      .transition();
+    }
+  }
+  
+  &:hover .menu__drop {
+    display: block;
+  }
+}
+
+.menu__link {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  .transition();
+  
+  &--catalog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    svg {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+      fill: #202020;
+      .transition();
+    }
+  }
+}
+
+.menu__drop {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 0;
+}
+
+.menu__sublist {
+  .reset();
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1180px;
+  padding: 20px 35px;
+  background-color: #fff;
+  border-top: 1px solid @blue;
+  border-bottom: 1px solid @blue;
+}
+
+.menu__subitem {
+  width: 25%;
+  padding: 10px;
+  padding-left: 0;
+  font-size: 16px;
+  
+  a {
+    text-decoration: none;
+  }
+  
+  &:hover a,
+  &:active a {
+    color: @blue;
+    text-decoration: underline;
+  }
+}

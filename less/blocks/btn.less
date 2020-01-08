@@ -1,0 +1,76 @@
+.btn {
+  position: relative;
+  z-index: 5;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  text-decoration: none;
+  .transition();
+  
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: @blue;
+    border: 1px solid @blue;
+    transform: skewX(-15deg);
+    .transition();
+  }
+  
+  &:hover,
+  &:active {
+    color: @blue;
+    .transition();
+    
+    &::before {
+      background-color: rgba(255,255,255,0);
+      .transition();
+    }
+  }
+  
+  &--border {
+    color: @blue;
+    
+    &::before {
+      background-color: rgba(255,255,255,0);
+      .transition();
+    }
+    
+    &:hover,
+    &:active {
+      color: #fff;
+      
+      &::before {
+        background-color: @blue;
+        .transition();
+      }
+    }
+  }
+}
+
+.btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  transform: rotate(180deg);
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid @blue;
+  background-color: rgba(255,255,255,0.5);
+  background-image: url(../img/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}

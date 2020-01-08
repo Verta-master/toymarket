@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #202020;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+section a {
+  text-decoration: underline;
+  
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+address {
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+figure {
+  .reset();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+  img {
+    display: block;
+    flex: 0 0 auto;
+  }
+}
+
+textarea,
+input,
+button {
+  display: block;
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+select {
+  display: block;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+.title-1,
+.title-2,
+.title-3 {
+  font-family: "Comfortaa", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+
+h1,
+.title-1 {
+  font-size: 40px;
+}
+
+h2,
+.title-2 {
+  font-size: 36px;
+}
+
+h3,
+.title-3 {
+  font-size: 24px;
+}
