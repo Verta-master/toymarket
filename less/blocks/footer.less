@@ -5,17 +5,29 @@
   line-height: 1.5;
   
   .title-3 {
+    position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
     color: #fff;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background-color: @blue;
+    }
   }
 }
 
 .footer__top {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .footer__bottom {
@@ -69,6 +81,7 @@
   
   .block-link {
     margin-bottom: 15px;
+    margin-left: 0;
     
     svg {
       fill: #fff;

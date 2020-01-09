@@ -1,5 +1,6 @@
 .product__top {
   position: relative;
+  margin-top: 50px;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 100px;
@@ -21,17 +22,21 @@
 
 .product__link {
   display: block;
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 16px;
-  font-weight: 600;
+  line-height: 1.2;
   color: @blue;
+  text-decoration: none;
+  border-bottom: 1px solid @blue;
   
   &:hover,
   &:active {
-    text-decoration: none;
+    border-color: rgba(255,255,255,0);
   }
 }
 
+.brand__next,
+.brand__prev,
 .product__prev,
 .product__next {
   top: 50px;
@@ -43,12 +48,14 @@
   outline: none;
 }
 
+.brand__prev,
 .product__prev {
   right: 50px;
   left: auto;
   transform: rotate(180deg);
 }
 
+.brand__next,
 .product__next {
   right: 0;
 }
@@ -201,6 +208,8 @@
   justify-content: space-around;
   align-items: center;
   margin-top: auto;
+  position: relative;
+  padding-bottom: 20px;
 }
 
 .product__increase {
@@ -272,4 +281,12 @@
     border: none;
     background-color: transparent;
   }
+}
+
+.product__comment {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1;
 }

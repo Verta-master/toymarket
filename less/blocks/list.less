@@ -1,7 +1,9 @@
-.list {
+.list ul {
   .reset();
   list-style: none;
-  padding-left: 25px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
   li {
     margin-bottom: 20px;
@@ -11,13 +13,12 @@
     &::before {
       content: "";
       position: absolute;
-      top: 2px;
+      top: 8px;
       left: 0;
-      width: 20px;
-      height: 20px;
-      background-image: url(../img/icons/steering-wheel.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: @blue;
     }
   }
 }
