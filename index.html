@@ -227,7 +227,7 @@
                 <p class="menu__title">Предложение дня</p>
                 <a href="#" class="menu__pic">
                   <img src="img/images/img-6.jpg" alt="Магазин">
-                  <span class="menu__sale">-20%</span>
+                  <span class="label">-20%</span>
                 </a>
               </li>
             </ul>
@@ -398,7 +398,7 @@
     <section class="product">
       <div class="wrapper">
         <div class="product__top">
-          <p class="product__title product__title--icon1">Новинки</p>
+          <p class="product__title">Новинки</p>
           <a href="#" class="product__link">Смотреть все</a>
           <div class="swiper-button-prev product__prev product__prev--01"></div>
           <div class="swiper-button-next product__next product__next--01"></div>
@@ -406,165 +406,143 @@
         <div class="swiper-container product__slider product__slider--01">
           <div class="swiper-wrapper">
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в одну-две строки</a>
+                  <p class="product__oldprice"><span>1500</span> руб.</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-11.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like catalog__like--fill" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__text">Здесь может быть краткое описание характеристик товара</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-9.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <label for="select" class="product__label">Выбрать цвет:</label>
+                <select id="select" class="product__select">
+                  <option value="1" selected>Белый</option>
+                  <option value="2">Черный</option>
+                  <option value="3">Коричневый</option>
+                </select>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--blue">New</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a data-fancybox data-src="#click" href="javascript:;" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
           </div>
@@ -575,7 +553,7 @@
     <section class="product">
       <div class="wrapper">
         <div class="product__top">
-          <p class="product__title product__title--icon2">Акции</p>
+          <p class="product__title">Акции</p>
           <a href="#" class="product__link">Смотреть все</a>
           <div class="swiper-button-prev product__prev product__prev--02"></div>
           <div class="swiper-button-next product__next product__next--02"></div>
@@ -583,165 +561,143 @@
         <div class="swiper-container product__slider product__slider--02">
           <div class="swiper-wrapper">
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label">-20%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в одну-две строки</a>
+                  <p class="product__oldprice"><span>1500</span> руб.</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-11.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like catalog__like--fill" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label">-5%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__text">Здесь может быть краткое описание характеристик товара</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-9.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label">-15%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <label for="select" class="product__label">Выбрать цвет:</label>
+                <select id="select" class="product__select">
+                  <option value="1" selected>Белый</option>
+                  <option value="2">Черный</option>
+                  <option value="3">Коричневый</option>
+                </select>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label">-20%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label">-10%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label">-10%</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
           </div>
@@ -752,7 +708,7 @@
     <section class="product">
       <div class="wrapper">
         <div class="product__top">
-          <p class="product__title product__title--icon3">Хит продаж</p>
+          <p class="product__title">Хит продаж</p>
           <a href="#" class="product__link">Смотреть все</a>
           <div class="swiper-button-prev product__prev product__prev--03"></div>
           <div class="swiper-button-next product__next product__next--03"></div>
@@ -760,165 +716,143 @@
         <div class="swiper-container product__slider product__slider--03">
           <div class="swiper-wrapper">
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в одну-две строки</a>
+                  <p class="product__oldprice"><span>1500</span> руб.</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-11.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like catalog__like--fill" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__text">Здесь может быть краткое описание характеристик товара</p>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-9.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <label for="select" class="product__label">Выбрать цвет:</label>
+                <select id="select" class="product__select">
+                  <option value="1" selected>Белый</option>
+                  <option value="2">Черный</option>
+                  <option value="3">Коричневый</option>
+                </select>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-12.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-13.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like" title="Добавить в избранное"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара в 1-2 строки</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
             <div class="swiper-slide product__slide">
-              <figure class="catalog__img">
-                <a href="#">
-                  <img src="img/images/img-10.jpg" alt="Название товара">
-                </a>
-              </figure>
-              <a href="#" class="catalog__like" title="Добавить в избранное">
-                <svg viewBox="0 -28 512.001 512" width="512px" height="512px">
-                  <use href="#icon-like"></use>
-                </svg>
+              <a href="#" class="product__img">
+                <img src="img/images/img-14.jpg" alt="Название товара">
               </a>
-              <form action="#" class="catalog__form">
-                <div class="catalog__top">
-                  <a href="#" class="catalog__name">Название товара</a>
-                  <p class="catalog__price"><span>1230</span> руб.</p>
+              <a href="#" class="product__like product__like--fill" title="В избранном"></a>
+              <div class="label label--violet">Хит</div>
+              <form action="#" class="product__form">
+                <div class="product__info">
+                  <a href="#" class="product__name">Название товара</a>
+                  <p class="product__price"><span>1230</span> руб.</p>
                 </div>
-                <div class="catalog__buy">
-                  <div class="catalog__increase">
-                    <button type="button" class="catalog__minus"><span>-</span></button>
-                    <input type="text" class="catalog__value" value="1">
-                    <button type="button" class="catalog__plus"><span>+</span></button>
+                <div class="product__buy">
+                  <div class="product__increase">
+                    <button type="button" class="product__minus"><span>-</span></button>
+                    <input type="text" class="product__value" value="1">
+                    <button type="button" class="product__plus"><span>+</span></button>
                   </div>
-                  <button type="button" class="btn catalog__btn">Купить</button>
+                  <button type="button" class="btn product__btn">Купить</button>
                 </div>
-                <a href="#" class="catalog__click">Купить в 1 клик</a>
+                <a data-fancybox data-src="#click" href="javascript:;" class="product__click">Купить в 1 клик</a>
               </form>
             </div>
           </div>
